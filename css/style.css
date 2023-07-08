@@ -1,0 +1,56 @@
+:root{
+    --cor-fundo:rgb(57, 174, 80);
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.logo{
+    width: 20%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+i{
+    font-size: 20vmin;
+}
+
+h2{
+    font-size: 8vmin;
+    text-align: center;
+}
+
+.formulario{
+    max-width: 40%;
+    margin: 20px auto;
+    background-color: rgb(146, 209, 155);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    max-width: 80%;
+    margin: 5px auto;
+}
+
+input{
+    border-radius: 20px;
+    border: 0;
+}
+
+.teste{
+    text-align: center;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+}
